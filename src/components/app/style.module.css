@@ -1,0 +1,25 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-title {
+    font-size: 60px;
+}
+
+.main {
+    width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
+    display: flex;
+    gap: 40px;
+    overflow: hidden;
+}

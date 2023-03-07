@@ -1,0 +1,5 @@
+
+export const IngredientDetails = () => {
+
+    return <></>
+}
